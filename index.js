@@ -32,7 +32,8 @@ console.log(smthng instanceof User);
 console.log(user instanceof User);
 console.log(User);
 
-user.eletkor = "kutya";
+user
+.eletkor = "kutya";
 user.kiir();
 let k = user.kiir;
 k();
